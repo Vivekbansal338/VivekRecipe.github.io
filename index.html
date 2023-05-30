@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- https://i.ibb.co/k8Y49kM/meal-1.jpg -->
+    <!-- https://i.ibb.co/qDKJ11W/favicon.png -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,
+    initiahttps://i.ibb.co/k8Y49kM/meal-1.jpg
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style4.css" />
+    <script
+      src="https://kit.fontawesome.com/4f63953e75.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document 1</title>
+  </head>
+  <body>
+    <header class="header" data-aos="fade-down" data-aos-repeat="true">
+      <div class="header__icon">
+        <!-- <img src="/img/logo.png" alt="Forkify" /> -->
+        <img src="https://i.ibb.co/qDKJ11W/favicon.png" alt="Forkify" />
+      </div>
+
+      <div class="header__search" data-aos="fade-right">
+        <input
+          class="header__search_input"
+          type="text"
+          placeholder="Search over 1,000,000 recipes..."
+        />
+        <button class="header_search-button1">Search</button>
+      </div>
+
+      <div class="header__action">
+        <button class="header__addrecipe-button" data-aos="fade-right">
+          <i class="fa-solid fa-utensils"></i>
+          Add Recipe
+        </button>
+        <button class="header__myrecipe-button" data-aos="fade-down">
+          <i class="fa-solid fa-book"></i>
+          My Recipes
+        </button>
+        <button class="header__bookmark-button" data-aos="fade-left">
+          <i class="fa-solid fa-bookmark"></i>
+          Bookmarks
+        </button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero__search__results">
+        <div class="hero__search__result">
+          <!-- <div class="hero__search__result__img">
+            <img src="https://i.ibb.co/k8Y49kM/meal-1.jpg" alt="Recipe 1" />
+          </div>
+
+          <div class="hero__search__result__details">
+            <h2>Name of Recipe</h2>
+            <h3>ALL Recipe</h3>
+          </div> -->
+        </div>
+      </div>
+      <div class="hero__details">
+        <div class="initial_message">
+          <img
+            src="https://i.ibb.co/k8Y49kM/meal-1.jpg"
+            alt="Recipe 1"
+            data-aos="fade-down"
+          />
+          <h2 data-aos="fade-up">Welcome to the Recipe App!</h2>
+          <p data-aos="fade-up">Please select a recipe to view its details.</p>
+        </div>
+        <div class="hero_recipe_detail hero_recipe_detail_hidden">
+          <div class="hero_recipe_detail_img" data-aos="fade-down">
+            <img src="https://i.ibb.co/k8Y49kM/meal-1.jpg" alt="Recipe 1" />
+          </div>
+
+          <div class="hero_recipe_detail_other">
+            <div>
+              <h2 class="hero_recipe_tilte">Title</h2>
+              <div class="bookmark">
+                <button class="recipe_bookmark_button">
+                  <i class="fa-solid fa-bookmark"></i>
+                </button>
+              </div>
+              <div class="delete">
+                <button class="delete_myrecipe_button">
+                  <i class="fa-solid fa-trash"></i>
+                </button>
+              </div>
+            </div>
+            <div class="hero_publisher">
+              <div class="hero_publisher_container">
+                <h2>By</h2>
+                <h3 class="hero_publisher_name">name of publisher</h3>
+              </div>
+              <div class="hero_publisherurl_container">
+                <a href="#" class="hero_publisher_url" target="_blank"
+                  >Visit Publisher</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="hero_recipe_detail_quantity">
+            <div class="cooking_time">
+              <i class="fa-solid fa-clock"></i>
+              <p><span>5</span> Minutes</p>
+            </div>
+            <div class="people_servings">
+              <i class="fa-solid fa-user"></i>
+              <p><span>4</span> Servings</p>
+              <button class="serving_plus_minus_button">
+                <i class="fas fa-plus"></i>
+              </button>
+              <button class="serving_plus_minus_button">
+                <i class="fas fa-minus"></i>
+              </button>
+            </div>
+
+            <div class="bookmark">
+              <button class="recipe_bookmark_button">
+                <i class="fa-solid fa-bookmark"></i>
+              </button>
+            </div>
+          </div> -->
+          <div class="hero_recipe_detail_ingredients">
+            <h2>RECIPE INGREDIENTS</h2>
+            <ul class="Recipe_ingredents_list">
+              <li>
+                <i class="fas fa-check"></i>
+                <p>Ingredient 1</p>
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                <p>Ingredient 2</p>
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                <p>Ingredient 3</p>
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                <p>Ingredient 4</p>
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                <p>Ingredient 5</p>
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                <p>Ingredient 6</p>
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                <p>Ingredient 7</p>
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                <p>Ingredient 8</p>
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                <p>Ingredient 9</p>
+              </li>
+            </ul>
+          </div>
+          <div class="hero_recipe_detail_cooking">
+            <h2>HOW TO COOK IT</h2>
+            <p>
+              This recipe was carefully designed and tested by
+              <span>Master Chef</span>. Please check out directions at their
+              website.
+            </p>
+            <a href="#" target="_blank" class="Direction__button">Directions</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero__myrecipe__results">
+        <div class="hero__search__result">
+          <div class="hero__search__result__img">
+            <img src="https://i.ibb.co/k8Y49kM/meal-1.jpg" alt="Recipe 1" />
+          </div>
+
+          <div class="hero__search__result__details">
+            <h2>Name of Recipe</h2>
+            <h3>ALL Recipe</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer__section">
+      <div class="footer__section__copywrite">
+        <h3>
+          © 2023 Your Website. <br />
+          rights reserved.
+        </h3>
+      </div>
+      <div class="footer__section__socialmedia">
+        <h3>Connect with us:</h3>
+        <div class="social__media">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer__section__contact">
+        <h3>Contact us:</h3>
+        <p>Email: info@yourwebsite.com</p>
+        <p>Phone: +1 123-456-7890</p>
+        <p>Address: 1234 Main Street, City, Country</p>
+      </div>
+    </footer>
+
+    <!-- Overlay/Modal for Bookmarks -->
+    <div class="bookmarksOverlay">
+      <div class="bookmark__overlay__content">
+        <div class="bookmark__header">
+          <h2>Bookmarked Recipes</h2>
+          <button class="close-overlay-bookmark" onclick="closeOverlay()">
+            Back
+          </button>
+        </div>
+        <!-- Place your bookmarked recipes content here -->
+        <div class="bookmark_list_items">
+          <div>
+            <img
+              class="bookmark_list_item_img"
+              src="https://i.ibb.co/k8Y49kM/meal-1.jpg"
+              alt="Recipe 1"
+            />
+          </div>
+
+          <div class="bookmark_list_item_details">
+            <h2 class="bookmark_list_item_title">Name of Recipe</h2>
+            <h3 class="bookmark_list_item_publisher">ALL Recipe</h3>
+          </div>
+        </div>
+
+        <!-- Add more bookmarked recipes as needed -->
+      </div>
+    </div>
+
+    <div class="addrecipeOverlay">
+      <div class="addrecipe__overlay__content">
+        <div class="addrecipe__header">
+          <h2>Add Recipe</h2>
+          <button
+            class="close-overlay-addrecipe"
+            onclick="closeaddrecipeOverlay()"
+          >
+            Back
+          </button>
+        </div>
+        <div class="addrecipe__content">
+          <form
+            class="addrecipe__form"
+            action="/submit-recipe"
+            method="post"
+            enctype="multipart/form-data"
+          >
+            <div class="addrecipe_title">
+              <label for="recipe_title">Recipe Title:</label>
+              <input
+                type="text"
+                id="recipe_title"
+                name="recipe-title"
+                placeholder="Enter Recipe Title"
+                required
+              />
+            </div>
+            <div class="addrecipe_image">
+              <label for="recipe-image-url">Recipe Image URL:</label>
+              <input
+                type="url"
+                id="recipe-image-url"
+                name="recipe-image-url"
+                placeholder="https://www.example.com/image.jpg"
+                required
+              />
+            </div>
+            <div class="addrecipe_publisher">
+              <label for="publisher-name">Publisher Name:</label>
+              <input
+                type="text"
+                id="publisher-name"
+                name="publisher-name"
+                placeholder="Enter publisher name"
+                required
+              />
+            </div>
+            <div class="addrecipe_publisherurl">
+              <label for="publisher-website">Publisher Website:</label>
+              <input
+                type="url"
+                id="publisher-website"
+                name="publisher-website"
+                placeholder="https://www.example.com"
+                required
+              />
+            </div>
+            <div class="addrecipe_sourceurl">
+              <label for="sourceurl-website">Source Website:</label>
+              <input
+                type="url"
+                id="sourceurl-website"
+                name="sourceurl-website"
+                placeholder="https://www.example.com"
+                required
+              />
+            </div>
+            <div class="addrecipe__ingredients">
+              <label for="ingredients">Ingredients:</label>
+              <div id="ingredients-list">
+                <input
+                  type="text"
+                  name="ingredient"
+                  placeholder="Ingredient"
+                  required
+                />
+              </div>
+              <button type="button" id="add-ingredient-button">
+                Add more ingredient
+              </button>
+            </div>
+
+            <button class="submit_recipe_button" type="submit">
+              Submit Recipe
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        offset: 100,
+      });
+    </script>
+    <script src="javascript.js"></script>
+    <script src="search_bookmark.js" type="module"></script>
+    <script src="addrecipe.js" type="module"></script>
+    <script src="helper.js" type="module"></script>
+  </body>
+</html>
